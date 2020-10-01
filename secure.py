@@ -1,4 +1,5 @@
 from Crypto.Cipher import AES
+import numpy
 
 # Encryption
 def encrypt(message):
@@ -31,7 +32,7 @@ if choice1 == 1:
 	file2.close()
 	file1.close()	
 	exit()
-
+print("Increased Time complexity")
 elif choice1 == 2:
 	infile = input("Enter the filename which is to be decrypted: ")
 	outfile = input("Enter the file where the cleartext has to be saved: ")
