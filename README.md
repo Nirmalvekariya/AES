@@ -1,3 +1,2 @@
 # AES
-
-run the command python3 secure2.py
+Implemented AES algorithm in python3.
